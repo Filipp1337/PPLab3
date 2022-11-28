@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 	if (0 == myid)
 	{
-		cout << "Summation of numbers" << endl << endl;
+		cout << "Summation of numbers." << endl << endl;
 		cout << "Enter the quantity of elements for summation:" << endl;
 		cin >> n;
 		data = new int[n];
